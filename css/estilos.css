@@ -1,0 +1,186 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    background-color: #123142;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    padding-left: 15px;
+    padding-top: 40px;
+    font-size: 30px;
+    color: white;
+}
+
+#logo {
+    width: 130px;
+    margin-left: 5px;
+
+}
+
+nav a {
+    text-align: right;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+
+#logo2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav {
+    padding-right: 25px;
+}
+
+nav a:hover {
+    color: #3b657a;
+}
+
+#imagem-meio {
+    margin-top: 100px;
+    margin-left: 400px;
+}
+
+#imagem-meio img {
+    height: 600px;
+
+}
+
+#container {
+    padding: 20px 10px 50px 10px;
+    text-align: center;
+}
+
+h1 {
+    color: #226381;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+
+}
+
+#container p {
+    text-align: left;
+    font-size: 25px;
+}
+
+h2 {
+    color: #226381;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: left;
+}
+
+h3 {
+    color: #226381;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+li {
+    text-align: left;
+    font-size: 25px;
+}
+
+#grafico-pizza {
+    width: 500px;
+    height: 500px;
+
+    margin-top: 200px;
+}
+
+button {
+    width: 100px;
+    margin-top: 40px;
+}
+
+#tabeladiv {
+    background-color: aliceblue;
+    position: absolute;
+}
+
+th {
+    margin-right: 20px;
+    background-color: #226381
+}
+
+table {
+    font-size: 20px;
+}
+
+
+@media (max-width:1280px) AND (min-width:768px) {
+
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #logo {
+        margin-left: 0px;
+    }
+
+    #imagem-meio {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    header {
+        width: 820px;
+        margin: 0px;
+    }
+
+    #logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    nav a {
+        flex-direction: column;
+        font-size: 10px;
+    }
+
+    #mapa {
+        width: 600px;
+        height: 600px;
+    }
+
+    header h1 {
+        font-size: 10px;
+        margin-bottom: 50px;
+    }
+
+    #grafico-pizza {
+        width: 420px;
+    }
+
+
+
+}
+
+@media (max-width:767px) {
+    header {
+        width: 100%;
+    }
+
+    #grafico-pizza {
+        width: 300px;
+    }
+
+    #tabeladiv {
+        width: 5px;
+    }
+
+    #tabela th {
+        font-size: 8px;
+    }
+}
